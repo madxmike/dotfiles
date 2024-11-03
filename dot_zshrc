@@ -3,8 +3,10 @@ fpath=(~/.config/zsh/completions $fpath)
 
 export GCM_CREDENTIAL_STORE=cache
 
+# Core Aliases
 alias chezmoi edit="chezmoi edit --apply"
 alias zedit="chezmoi edit ~/.zshrc && source ~/.zshrc"
+alias vim="nvim"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
