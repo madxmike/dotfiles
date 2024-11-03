@@ -3,6 +3,7 @@ export GCM_CREDENTIAL_STORE=cache
 
 # ZSH Custom Functions
 fpath=(~/.zfuncs $fpath)
+autoload -U $fpath[1]/*(.:t)
 
 # Core Aliases
 alias zedit="chezmoi edit ~/.zshrc && source ~/.zshrc"
