@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Michael Epps
+	email = mep053@gmail.com
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = cache
+[credential "https://dev.azure.com"]
+	useHttpPath = true
