@@ -1,0 +1,6 @@
+{
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.selectionHighlight": false,
+    "editor.semanticHighlighting.enabled": false
+}
