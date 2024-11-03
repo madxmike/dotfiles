@@ -1,7 +1,8 @@
 export PATH="$HOME/bin:$PATH"
-fpath=(~/.config/zsh/completions $fpath)
-
 export GCM_CREDENTIAL_STORE=cache
+
+# ZSH Custom Functions
+fpath=(~/.zfuncs $fpath)
 
 # Core Aliases
 alias zedit="chezmoi edit ~/.zshrc && source ~/.zshrc"
