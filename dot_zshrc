@@ -8,15 +8,6 @@ fpath=(~/.zfuncs $fpath)
 alias zedit="chezmoi edit ~/.zshrc && source ~/.zshrc"
 alias vim="nvim"
 
-function chezmoi() {
-  if [[ "$1" == "edit" ]]; then
-    shift 1
-    command chezmoi edit --apply "$@"
-  else
-    command chezmoi "$@"
-  fi
-}
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
